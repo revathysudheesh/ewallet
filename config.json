@@ -1,0 +1,15 @@
+{
+    "app": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "debug": true
+      },
+    "db":{
+        "host": "localhost",
+        "username": "postgres",
+        "password": "postgres",
+        "port": 5432,
+        "database": "ewallet",
+        "engine": "postgres"
+    }
+}
