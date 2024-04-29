@@ -3,7 +3,7 @@ from passlib.context import CryptContext
 import os
 from datetime import datetime, timedelta
 from typing import Union, Any
-from jose import jwt
+import jwt
 password_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def get_hashed_password(password: str):
