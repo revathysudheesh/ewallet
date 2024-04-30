@@ -5,9 +5,9 @@
         "debug": true
       },
     "db":{
-        "host": "localhost",
+        "host": "ewallet.ctqgasu6o7um.eu-north-1.rds.amazonaws.com",
         "username": "postgres",
-        "password": "postgres",
+        "password": "password123",
         "port": 5432,
         "database": "ewallet",
         "engine": "postgres"
